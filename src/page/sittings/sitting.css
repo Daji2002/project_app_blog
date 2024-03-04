@@ -1,0 +1,71 @@
+.sitting{
+    display: flex;
+}
+.sittingWrapper{
+    flex: 9;
+    padding: 20px;
+}
+.sittingTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sittingUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+.sittingDeleteTitle{
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+.sittingForm{
+    display: flex;
+    flex-direction: column;
+}
+.sittingPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.sittingPP>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.sittingPPIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sittingForm > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.sittingForm>input{
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+.sittingSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
